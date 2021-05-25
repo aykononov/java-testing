@@ -43,6 +43,7 @@ desktop, web) существенно снижает возможности по�
 <details><summary>JUnit - тестирование</summary>
 
 ```java
+// Пример
 import java.util.Comparator;
 import java.util.List;
 
@@ -85,9 +86,8 @@ public class DataService {
 
 ```
 
-### Класс тестов для методов исходного класса DataService.
-
 ```java
+// Тест
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
